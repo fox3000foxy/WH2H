@@ -1,0 +1,23 @@
+{
+  "name": "Discord Webhook Modifier - WH2H",
+  "description": "Transform webhook bots to profiles !",
+  "version": "2.0",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "http://*/",
+    "https://*/"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Discord Webhook Modifier - WH2H\nOpen UI of extension",
+	"default_icon": "icon.png"
+  },
+  "icons": { "16": "icon.png",
+           "48": "icon.png",
+          "128": "icon.png" },
+  "manifest_version": 2
+}
