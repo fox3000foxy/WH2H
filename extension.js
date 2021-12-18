@@ -506,7 +506,7 @@ function openPopup() {
 	 `);
 }
 
-if(window.intervalDWM) clearInterval(window.intervalDWM)
+/* if(window.intervalDWM) clearInterval(window.intervalDWM)
 window.intervalDWM = setInterval(() => {
 	var all = document.getElementsByClassName("desaturateUserColors-1gar-1");
 	var profiles = JSON.parse(getSharedValue("DWMkey"))
@@ -594,7 +594,7 @@ window.intervalDWM = setInterval(() => {
 		keys.sort((a,b) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0))
 		writeSharedValue("DWMkey",keys)
 	}
-},100)
+},100) */
 
 window.statusListMap = [
 	"online",
